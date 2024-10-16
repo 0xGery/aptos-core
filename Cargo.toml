@@ -290,8 +290,6 @@ rust-version = "1.78.0"
 [workspace.dependencies]
 # Internal crate dependencies.
 # Please do not add any test features here: they should be declared by the individual crate.
-zeroize = "1.6.0"
-x25519-dalek = "2.0.0"
 aptos = { path = "crates/aptos" }
 aptos-accumulator = { path = "storage/accumulator" }
 aptos-admin-service = { path = "crates/aptos-admin-service" }
