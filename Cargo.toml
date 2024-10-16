@@ -466,6 +466,8 @@ aptos-cargo-cli = { path = "devtools/aptos-cargo-cli" }
 
 # External crate dependencies.
 # Please do not add any test features here: they should be declared by the individual crate.
+zeroize = "1.6.0"
+x25519-dalek = "2.0.0"
 aes-gcm = "0.10.3"
 ahash = "0.8.11"
 atty = "0.2.14"
